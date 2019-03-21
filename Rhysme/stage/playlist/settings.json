@@ -1,0 +1,26 @@
+{
+    "name" : "playlist",
+    "event_set" :{
+        "back_to_menu" : { //Function name, it won't be the event._name (because event object probably doesn't need this attribute)
+            "function" : 0, //MUST >= 0. TODO : should it be string or make a library that record function enum?
+            "parameter" : [1,2], //Could be none
+        },
+        "jump_to_option" : { //Function name, it won't be the event._name (because event object probably doesn't need this attribute)
+            "function" : 0, //MUST >= 0. TODO : should it be string or make a library that record function enum?
+            "parameter" : [1,2], //Could be none
+        },
+    },
+    "button_set" : {
+        "bg" : { //Which is button._name
+            "img_scr" : "\\sudo.png",
+            "position" : [0, 0], //or none
+            "z-index" : 0, //none : sequntial
+        },
+        "back_to_menu" : {
+            "img_scr" : "\\sudo.png",
+            "event_id" : 0,
+            "position" : [0.5, 0.3], //(x, y) pixel or 0~1 float
+            "z-index" : 1,
+        },
+    },
+}
