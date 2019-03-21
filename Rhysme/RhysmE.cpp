@@ -2,7 +2,7 @@
 
 //Window size setting
 int WINDOW_WIDTH = 1366;
-int WINDOW_HEIGHT = 768
+int WINDOW_HEIGHT = 768;
 
 //.json file list(for stages currently)
 std::string setting_file_list[] = {"stage\playlist\settings.json"};
