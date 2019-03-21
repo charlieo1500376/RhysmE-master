@@ -1,7 +1,7 @@
 #include "RhysmE.h"
 
 //Window size setting
-int WINDOW_WIDTH = 1366;
+int WINDOW_WIDTH = 1360;
 int WINDOW_HEIGHT = 768;
 
 //.json file list(for stages currently)
